@@ -43,7 +43,7 @@ $data= getFirstName();
         </nav>
         
            <div class="container" >  
-                <h1 align="left">Popular Products</h1><br />  
+                <h3 align="center">Multi Tab Shopping Cart By Using PHP Ajax Jquery Bootstrap Mysql</h3><br />  
                 <ul class="nav nav-tabs">  
                      <li class="active"><a data-toggle="tab" href="#products">Product</a></li>  
                      <li><a data-toggle="tab" href="#cart">Cart <span class="badge"><?php if(isset($_SESSION["shopping_cart"])) { echo count($_SESSION["shopping_cart"]); } else { echo '0';}?></span></a></li>  
@@ -60,7 +60,6 @@ $data= getFirstName();
                           <div style="border:0px; background-color:white; border-radius:5px; padding:16px; height:350px;" align="center">  
                                <img src="./../images/products/<?php echo $row["image"]; ?>" class="img-thumbnail" /><br />  
                                <h4 class="text-info"><?php echo $row["name"]; ?></h4>  
-                               <h6 class="text-info"><?php echo $row["productunit"]; ?></h6>  
                                <h4 class="text-danger">$ <?php echo $row["price"]; ?></h4>  
                                <input type="text" name="quantity" id="quantity<?php echo $row["id"]; ?>" class="form-control" value="1" />  
                                <input type="hidden" name="hidden_name" id="name<?php echo $row["id"]; ?>" value="<?php echo $row["name"]; ?>" />  
