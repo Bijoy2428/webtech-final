@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url(../images/3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-info{
+    color: #ffffff;
+    max-width: 500px;
+    line-height: 65px;
+    padding: 50px;
+    font-size: 18px;
+
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+    flex: 1;
+}
+
+.contact-form h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.contact-form textarea{
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+.contact-form .send-btn{
+    float: right;
+    background: #2e94e3;
+    color: #ffffff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+
+}
